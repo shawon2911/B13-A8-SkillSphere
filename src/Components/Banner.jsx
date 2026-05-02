@@ -8,7 +8,7 @@ import "./../app/globals.css";
 
 export default function Banner() {
   return (
-    <Swiper className="">
+    <Swiper className="mx-40">
       <SwiperSlide>
         <div className="relative min-h-screen">
           <Image
@@ -35,14 +35,14 @@ export default function Banner() {
               <div className="flex gap-4 mt-12">
                 <Link
                   href="/signup"
-                  className="px-6 py-4 text-xl bg-[#080431] text-white rounded-xl hover:shadow-2xl"
+                  className="px-4 py-3  bg-[#080431] text-white rounded-xl hover:shadow-2xl"
                 >
                   Register Now
                 </Link>
 
                 <Link
                   href="/courses"
-                  className="px-6 py-4 text-xl border hover:bg-[#080431] hover:border-none rounded-xl hover:shadow-2xl"
+                  className="px-4 py-3 border hover:bg-[#080431] hover:border-none rounded-xl hover:shadow-2xl"
                 >
                   Learn More
                 </Link>

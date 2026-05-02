@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1, 
+    "title": "Complete Web Development Bootcamp", 
+    "instructor": "John Doe", 
+    "duration": "20 hours", 
+    "rating": 4.8, 
+    "level": "Beginner", 
+    "description": "Learn full-stack web development from scratch.", 
+    "image": "https://i.ibb.co.com/Z6Tjcm0N/course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Sarah Ahmed",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Deep dive into modern JavaScript concepts and patterns.",
+    "image": "https://i.ibb.co.com/FLF4HKT1/course2.webp",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Michael Lee",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn the basics of user interface and user experience design.",
+    "image": "https://i.ibb.co.com/Y7L4ZX9N/course3.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "React & Next.js Complete Guide",
+    "instructor": "Emily Carter",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build modern web applications using React and Next.js.",
+    "image": "https://i.ibb.co.com/j9StZv5v/course4.webp",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Essentials",
+    "instructor": "David Kim",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Understand the fundamentals of online marketing strategies.",
+    "image": "https://i.ibb.co.com/ycjbm3V1/course5.webp",
+    "category": "Marketing"
+  },
+  {
+    "id": 6,
+    "title": "Python for Data Science",
+    "instructor": "Ayesha Rahman",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Analyze data and build models using Python and popular libraries.",
+
+    "image": "https://i.ibb.co.com/v60yw3g7/course6.jpg",
+    "category": "Data Science"
+  }
+]
+
+
+
+
+
