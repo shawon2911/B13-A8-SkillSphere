@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body  className="min-h-full flex flex-col">
+      <body  className="">
         <Navbar></Navbar>
-        <main className="max-w-7xl mx-auto bg-[#080431]">{children}</main>
+        <main className=" ">{children}</main>
         <Footer></Footer>
         </body>
     </html>
