@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link href={"/"} className="text-lg">Home</Link>
       </li>
       <li>
-        <Link href={"/courses"} className="text-lg">Courses</Link>
+        <Link href={"/all-courses"} className="text-lg">Courses</Link>
       </li>
       <li>
         <Link href={"/my-profile"} className="text-lg">My Profile</Link>
@@ -40,23 +40,23 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content text-black rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content text-black bg-white rounded-box z-10 mt-3 w-52 p-2 shadow"
           >
             {links}
           </ul>
         </div>
-        <Link href={"/"} className=" text-3xl">SkillSphere</Link >
+        <Link href={"/"} className="text-2xl md:text-3xl">SkillSphere</Link >
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="navbar-end lg:mr-15">
+      <div className="navbar-end mr-3 lg:mr-15">
         <ul className="flex gap-5">
           <li>
-            <Link href={"/signup"} className="text-lg">SignUp</Link>
+            <Link href={"/signup"} className="text-sm md:text-lg">SignUp</Link>
           </li>
           <li>
-            <Link href={"/signin"} className="text-lg">SignIn</Link>
+            <Link href={"/signin"} className="text-sm md:text-lg">SignIn</Link>
           </li>
         </ul>
       </div>
