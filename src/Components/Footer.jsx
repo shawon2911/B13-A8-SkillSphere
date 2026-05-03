@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               
-              <h2 className="text-xl font-semibold tracking-tight text-white dark:text-white">
+              <h2 className="text-3xl font-semibold tracking-tight text-white dark:text-white">
                 Skill<span className="text-red-700">Sphere</span>
               </h2>
             </div>
@@ -114,7 +114,7 @@ const Footer = () => {
             <Link
               href="/signup"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-full 
-              bg-black text-white dark:bg-white dark:text-black 
+              bg-red-700 text-white dark:bg-white dark:text-black 
               text-sm font-medium transition-all duration-200 
               hover:scale-[1.02] hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-white/10"
             >

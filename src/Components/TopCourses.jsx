@@ -10,12 +10,12 @@ const TopCourses = async () => {
 
   return (
     <div className="max-w-7xl mx-auto pt-10 p-6 md:mt-20">
-      <h2 className="text-3xl font-bold">Top Rated Courses</h2>
+      <h2 className="text-3xl md:text-5xl font-bold">Top Rated Courses</h2>
       
 
       <p className="text-gray-400 mt-5 md:mt-8">
-        Gain hands-on experience through practical projects and stay <br /> ahead with
-        up-to-date course content tailored for your growth.
+        Gain hands-on experience through practical projects and stay ahead with
+        up-to-date <br /> course   content tailored for your growth.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
         {top3Course.map((course) => (
