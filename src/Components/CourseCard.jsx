@@ -5,16 +5,16 @@ import Link from "next/link";
 import React from "react";
 
 const CourseCard = ({ course }) => {
-  console.log(course);
+  // console.log(course);
   return (
-    <div className=" border border-gray-500 rounded-xl max-w-90 bg-white text-black p-2 flex flex-col h-full hover:scale-[1.05]">
+    <div className=" border border-gray-300 rounded-xl max-w-90 bg-white text-black p-2 flex flex-col h-full hover:shadow-md hover:shadow-white transition-all duration-300">
      <div className="relative aspect-video w-full">
        <Image
         src={course.image}
         fill
         alt={course.title}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        className="object-cover rounded-xl"
+        className="object-cover rounded-xl hover:scale-[1.02]"
       />
      </div>
       <div className="p-3 flex flex-col grow space-y-4 mt-2">

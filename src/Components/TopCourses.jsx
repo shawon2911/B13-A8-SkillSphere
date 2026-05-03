@@ -1,4 +1,4 @@
-import React from "react";
+
 import CourseCard from "./CourseCard";
 
 const TopCourses = async () => {
@@ -10,7 +10,7 @@ const TopCourses = async () => {
 
   return (
     <div className="max-w-7xl mx-auto pt-10 p-6 md:mt-20">
-      <h2 className="text-3xl md:text-5xl font-bold">Top Rated Courses</h2>
+      <h2 className="text-3xl md:text-5xl text-white  font-bold">Top Rated Courses</h2>
       
 
       <p className="text-gray-400 mt-5 md:mt-8">

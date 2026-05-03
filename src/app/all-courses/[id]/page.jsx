@@ -16,15 +16,15 @@ const CourseDetails = async ({ params }) => {
 
   return (
     <div className="max-w-7xl mx-auto pt-8  md:py-15 ">
-      <h2 className="text-3xl font-bold px-5 md:px-0">Course Details</h2>
-      <div className="grid grid-cols-1  md:grid-cols-2 gap-y-5 md:gap-10 items-center bg-gray-300 border border-gray-700 rounded-xl p-2 pb-8 md:pb-0 md:py-15 mt-8 ">
+      <h2 className="text-3xl md:text-5xl font-bold px-5 md:px-0">Course Details</h2>
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-y-5 md:gap-10 items-center bg-gray-300 border border-gray-700 rounded-xl p-2 pb-8  md:py-15 mt-8 ">
         <div className="relative aspect-video w-full lg:w-125 left-content mx-auto ">
           <Image
             src={course.image}
             alt={course.title}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="absolute rounded-xl"
+            className="absolute rounded-xl "
           />
         </div>
 
