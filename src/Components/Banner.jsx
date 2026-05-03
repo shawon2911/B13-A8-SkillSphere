@@ -35,7 +35,7 @@ export default function Banner() {
               <div className="flex gap-4 mt-12">
                 <Link
                   href="/signup"
-                  className="px-3 py-2 md:px-4 md:py-3  bg-[#696988] hover:scale-[1.05]  hover:shadow-black/10 text-white rounded-xl hover:shadow-2xl"
+                  className="px-3 py-2 md:px-4 md:py-3  bg-red-700 hover:scale-[1.05]  hover:shadow-black/10 text-white rounded-xl hover:shadow-2xl"
                 >
                   Register Now
                 </Link>
@@ -77,7 +77,7 @@ export default function Banner() {
               <div className="flex gap-4 mt-10">
                 <Link
                   href="/signup"
-                  className="px-3 py-2 md:px-4 md:py-3  bg-[#696988] hover:scale-[1.05]  hover:shadow-black/10 text-white rounded-xl hover:shadow-2xl"
+                  className="px-3 py-2 md:px-4 md:py-3  bg-red-700 hover:scale-[1.05]  hover:shadow-black/10 text-white rounded-xl hover:shadow-2xl"
                 >
                   Register Now
                 </Link>

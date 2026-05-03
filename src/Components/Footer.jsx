@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               
               <h2 className="text-xl font-semibold tracking-tight text-white dark:text-white">
-                SkillSphere
+                Skill<span className="text-red-700">Sphere</span>
               </h2>
             </div>
 

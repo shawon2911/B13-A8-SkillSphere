@@ -2,9 +2,7 @@ import React from "react";
 import CourseCard from "./CourseCard";
 
 const TopCourses = async () => {
-  const res = await fetch(
-    "https://b13-a8-skill-sphere-alpha.vercel.app/data.json",
-  );
+  const res = await fetch("https://b13-a8-skill-sphere-alpha.vercel.app/data.json");
   const courses = await res.json();
   // console.log(courses);
   const top3Course = courses.sort((a, b) => b.rating - a.rating).slice(0, 3);
