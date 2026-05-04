@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import toast from "react-hot-toast";
 import {
   Button,
   Card,
@@ -30,6 +31,13 @@ export default function SignInPage() {
     });
     console.log({ data, error });
   };
+
+  if (error) {
+    toast.error(error.message || "Signup failed!");
+    return;
+  }
+
+  toast.success("Account created successfully!");
 
   const handleGoogleSignIn = async () => {
     await authClient.signIn.social({

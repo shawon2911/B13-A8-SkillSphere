@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import toast from "react-hot-toast";
 import {
   Button,
   Card,
@@ -34,6 +35,16 @@ export default function SignUpPage() {
       password,
       image,
     });
+
+
+    if (error) {
+    toast.error(error.message || "Signup failed!");
+    return;
+  }
+
+  toast.success("Account created successfully!");
+
+
 
     if (!error) {
       router.push("/");
