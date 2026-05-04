@@ -3,7 +3,7 @@ import React from "react";
 
 const TopInstructors = () => {
   return (
-    <section className="max-w-7xl mx-auto py-16 px-4 text-white">
+    <section className="max-w-7xl mx-auto py-8 md:py-16 px-4 text-white">
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-10">
         👨‍🏫 Top Instructors
       </h2>

@@ -14,7 +14,7 @@ const Tips = () => {
       </span>
 
       {/* Study Tips Cards */}
-      <div className="grid md:grid-cols-3 gap-6 mb-12 mt-5 text-black">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mb-12 md:mt-5 text-black">
         <div className="py-10 px-8 bg-gray-200 max-w-96 text-center rounded-xl hover:scale-[1.03] hover:shadow-lg transition">
           <h3 className="text-2xl font-bold mb-2">Active Learning</h3>
           <p className="text-gray-800 text-md">
@@ -38,7 +38,7 @@ const Tips = () => {
       </div>
 
       {/* Time Management */}
-      <div className="bg-white text-black rounded-xl p-6 mb-10">
+      <div className="bg-white text-black rounded-xl p-6 mt-10  mb-10">
         <span className="flex   gap-3">
           <IoMdClock className="text-3xl" />
           <h2 className="text-3xl  font-bold mb-10 ">
