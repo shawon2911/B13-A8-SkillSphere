@@ -95,7 +95,7 @@ const Navbar = () => {
               <Avatar.Image
                 alt={user?.name}
                 src={user?.image}
-                referrerPolicy="no-referrer"
+                
                 
               />
               <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
