@@ -3,6 +3,7 @@ import { authClient } from "@/lib/auth-client";
 import { Avatar, Button } from "@heroui/react";
 import Link from "next/link";
 import React from "react";
+import toast from "react-hot-toast";
 
 const Navbar = () => {
   const userData = authClient.useSession();
@@ -11,6 +12,7 @@ const Navbar = () => {
   // console.log(userData);
   const handleSignOut = async() => {
     await authClient.signOut()
+    
   }
   const links = (
     <>

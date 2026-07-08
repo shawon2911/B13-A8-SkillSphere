@@ -17,7 +17,7 @@ const TopCourses = async () => {
         Gain hands-on experience through practical projects and stay ahead with
         up-to-date <br /> course   content tailored for your growth.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-10 ">
         {top3Course.map((course) => (
         <CourseCard key={course.id} course={course}></CourseCard>
       ))}

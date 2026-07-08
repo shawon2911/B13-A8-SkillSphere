@@ -15,8 +15,11 @@ import {
 } from "@heroui/react";
 import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
+import { useSearchParams } from "next/navigation";
 
-export default function SignInPage() {
+ export  default  function SignInPage () {
+  // const searchParams = useSearchParams()
+  // const redirectPath = searchParams.get("redirect") || "/";
   const onSubmit = async (e) => {
     e.preventDefault();
 
@@ -29,15 +32,15 @@ export default function SignInPage() {
       password,
       callbackURL: "/",
     });
-    console.log({ data, error });
+    toast.success("login successfully!");
+    // console.log({ data, error });
   };
 
-  if (error) {
-    toast.error(error.message || "Signup failed!");
-    return;
-  }
+  // if (error) {
+  //   toast.error(error.message || "Signup failed!");
+  //   return;
+  // }
 
-  toast.success("Account created successfully!");
 
   const handleGoogleSignIn = async () => {
     await authClient.signIn.social({
@@ -46,10 +49,10 @@ export default function SignInPage() {
   };
 
   return (
-    <Card className="border mx-auto max-w-full md:w-125 py-10 mt-25 text-black ">
+    <Card className="border mx-auto max-w-full md:w-125 py-10 mt-10 md:mt-25 text-black ">
       <h1 className="text-center text-2xl  font-bold">Sign In</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+      <Form className="flex md:w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField
           isRequired
           name="email"
@@ -106,7 +109,7 @@ export default function SignInPage() {
           </Button>
           <Button
             className={
-              "bg-white rounded-lg border text-red-700 hover:shadow-sm hover:shadow-red-200 hover:scale-[1.02]"
+              "bg-white rounded-lg border text-red-700 hover:text-white hover:bg-red-700 hover:shadow-sm hover:shadow-red-200 hover:scale-[1.02]"
             }
           >
             Reset

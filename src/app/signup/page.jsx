@@ -37,10 +37,10 @@ export default function SignUpPage() {
     });
 
 
-    if (error) {
-    toast.error(error.message || "Signup failed!");
-    return;
-  }
+  //   if (error) {
+  //   toast.error(error.message || "Signup failed!");
+  //   return;
+  // }
 
   toast.success("Account created successfully!");
 
@@ -60,10 +60,10 @@ export default function SignUpPage() {
   };
 
   return (
-    <Card className="border mx-auto max-w-full  md:w-125 py-10 mt-25 text-black ">
+    <Card className="border mx-auto max-w-full  md:w-125 py-10 mt-10 md:mt-25 text-black ">
       <h1 className="text-center text-2xl  font-bold">Sign Up</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+      <Form className="flex md:w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField isRequired name="name" type="text">
           <Label>Name</Label>
           <Input placeholder="Enter your name" />
